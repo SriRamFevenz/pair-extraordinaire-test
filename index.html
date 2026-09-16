@@ -9,19 +9,29 @@
   <body>
     <main class="page-shell">
       <header class="topbar">
-        <div class="brand">
-          <div class="brand-mark">G</div>
-          <span>GitHub</span>
-        </div>
-        <div class="status">
-          <span class="status-dot"></span>
-          Active profile
-        </div>
+        <nav class="nav-shell" aria-label="Main navigation">
+          <div class="brand">
+            <div class="brand-mark">G</div>
+            <span>GitHub</span>
+          </div>
+
+          <div class="nav-group" aria-label="Navigation links">
+            <a class="nav-link active" href="#top">Overview</a>
+            <a class="nav-link" href="#achievements">Achievements</a>
+            <a class="nav-link" href="#stats">Stats</a>
+            <a class="nav-link" href="#focus">Focus</a>
+          </div>
+
+          <div class="status">
+            <span class="status-dot"></span>
+            Active profile
+          </div>
+        </nav>
       </header>
 
       <section class="hero">
         <div class="hero-copy">
-          <span class="eyebrow">Developer profile</span>
+          <span class="eyebrow">Level 01 • Developer profile</span>
           <h1>heyshreee</h1>
           <p class="subtitle">
             Building thoughtful interfaces, shipping practical ideas, and growing as a developer through consistent learning,
@@ -43,7 +53,7 @@
             </div>
           </div>
 
-          <div class="mini-grid">
+          <div class="mini-grid" id="stats">
             <div class="stat-box">
               <strong>325</strong>
               <span>Contributions</span>
